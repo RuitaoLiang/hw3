@@ -18,13 +18,11 @@ function keyPressed() {
     fill(0, 255, 0);
   } else if (key == 'B') {
     fill(0, 0, 255); 
-  if (key == 'PP') {
-    colorMode(HSB);
+  } else if (key == 'P') {
     fill(255, 204, 100);
-  } else if (key == 'PINK') {
+  } else if (key == 'K') {
     fill('#fae');
-  } else if (key == 'LG') {
-    fill('rgba(0,255,0, 0.25)'); 
-	}
-	}
+  } else if (key == 'Y') {
+    fill(255, 204, 0); 
+}
 }
